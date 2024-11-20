@@ -45,9 +45,8 @@
                         <div class="col-3 ">
                           <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <a class="nav-link {{($key=="home") ? "active":""}}" id="v-pills-home-tab" href="/" >Dashboard</a>
-                            <a class="nav-link {{($key=="daftarKaryawan") ? "active":""}}" id="v-pills-profile-tab" href="/daftarKaryawan">Karyawan</a>
-                            <a class="nav-link" id="v-pills-messages-tab" href="#" >Perusahaan</a>
-                            <a class="nav-link" id="v-pills-settings-tab" href="#" >Settings</a>
+                            <a class="nav-link {{($key=="daftarKaryawan") ? "active":""}}" id="v-pills-daftarKaryawan-tab" href="/daftarKaryawan">Karyawan</a>
+                            <a class="nav-link {{($key=="daftarPerusahaan") ? "active":""}}" id="v-pills-daftarPerusahaan-tab" href="/daftarPerusahaan" >Perusahaan</a>
                           </div>
                         </div>
                         

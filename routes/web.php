@@ -13,3 +13,4 @@
 
 Route::get('/',"PageController@home");
 Route::get('/daftarKaryawan',"PageController@daftarKaryawan");
+Route::get('/daftarPerusahaan',"PageController@daftarPerusahaan");
